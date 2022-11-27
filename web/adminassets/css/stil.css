@@ -1,0 +1,97 @@
+.pagination{
+	list-style-type:none;
+}
+
+.pagination li a{
+	background: #203747;
+	padding: 5px 11px;
+	display: block;
+	margin-top: 13px;
+	margin-right: 7px;
+	color: #fff;
+}
+
+.pagination > li > span {
+    position: relative;
+    float: left;
+    padding: 0;
+    margin-left: -1px;
+    line-height: 1.42857143;
+    color: #fff !important;
+    text-decoration: none;
+    background: transparent !important;
+    border: 0 !important;
+}
+
+.pagination .disabled{
+	background: #203747;
+	padding: 5px 11px;
+	display: block;
+	margin-top: 13px;
+	margin-right: 7px;
+	color: #fff;
+	cursor:no-drop;
+}
+
+.pagination .active a{
+	background: #ffb100 !important;
+	color: #000 !important;
+}
+
+.checkbox input{
+	width: 24px;
+	height: 20px;
+	margin: 0 !important;
+}
+
+.grid-view .summary{
+	margin-bottom:15px;
+}
+
+input.mac {
+    border: 0 !important;
+    background-image: linear-gradient(#9c27b0, #9c27b0), linear-gradient(#D2D2D2, #D2D2D2);
+    background-size: 0 8px, 100% 2px;
+    background-repeat: no-repeat;
+    background-position: center bottom, center calc(100% - 1px);
+    background-color: transparent;
+    transition: background 0s ease-out;
+    float: none;
+    box-shadow: none;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.form-control {
+    border: 1px solid #ededed;
+    background-size: 0 2px, 100% 1px;
+    background-repeat: no-repeat;
+    background-position: center bottom, center calc(100% - 1px);
+    background-color: transparent;
+    transition: background 0s ease-out;
+    float: none;
+    box-shadow: none;
+    border-radius: 0;
+}
+
+.field-vps-plan_type label{
+	display: inline-block;
+	margin-right: 9px;
+	margin-top: 10px;
+	margin-bottom: 15px;
+}
+
+.title_up{
+	margin-bottom:15px;
+}
+
+.margin-15{
+	margin-bottom:15px;
+}
+
+.ecommerce-widget-a--warning .ecommerce-widget-a__currency{background: #ffc904;color: #fff;}
+.ecommerce-widget-a--warning .ecommerce-widget-a__price{color:#ffc904}
+
+.text-white-navbar, .text-white-navbar:hover, .text-white-navbar:active, .text-white-navbar:focus, .text-white-navbar:visited{
+	color:#fff !important;
+}
